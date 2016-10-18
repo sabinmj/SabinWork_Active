@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<records>
+<employee>
+<name>Sachin Kumar</name>
+<salary>50000</salary>
+</employee>
+<employee>
+<name>Rahul Kumar</name>
+<salary>60000</salary>
+</employee>
+<employee>
+<name>abc</name>
+<salary>70000</salary>
+    <name>vinoth</name>
+    <salary>70000</salary>
+    <name>Dravid</name>
+    <salary>70000</salary>
+</employee>
+</records>

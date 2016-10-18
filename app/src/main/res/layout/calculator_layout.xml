@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent" android:layout_height="match_parent"
+
+    android:clipToPadding="false">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#97ce00"
+        android:weightSum="1"
+        android:id="@+id/linearLayout2">
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="327dp"
+        android:layout_height="wrap_content"
+        android:background="@color/background3"
+        android:elevation="20dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:translationZ="4dp"
+        android:visibility="visible"
+        android:padding="5dp"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="286dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_below="@+id/linearLayout2"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/linearLayout10"
+            android:layout_gravity="center"
+            android:transitionName="hia"
+            android:translationZ="10dp"
+            android:visibility="visible"
+            android:touchscreenBlocksFocus="false">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Simple calculator"
+                android:id="@+id/textView13"
+                android:layout_gravity="center_horizontal"
+                android:paddingTop="10dp" />
+
+            <EditText
+                android:hint="enter 1st num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="numberSigned"
+                android:ems="10"
+                android:id="@+id/etfirstnum"
+                android:layout_marginTop="64dp"
+                android:layout_below="@+id/linearLayout2"
+                android:layout_alignLeft="@+id/etsecondnum"
+                android:layout_alignStart="@+id/etsecondnum" />
+
+            <EditText
+                android:hint="enter 2nd num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="numberSigned"
+                android:ems="10"
+                android:id="@+id/etsecondnum"
+                android:layout_below="@+id/etfirstnum"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="31dp"
+                android:foregroundGravity="center"
+                />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:layout_below="@+id/etsecondnum"
+                android:layout_alignLeft="@+id/etsecondnum"
+                android:layout_alignStart="@+id/etsecondnum"
+                android:id="@+id/linearLayout"
+
+                >
+
+                <Button
+                    android:onClick="docalculation"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+"
+                    android:id="@+id/btnadd" />
+
+                <Button
+                    android:onClick="docalculation"
+
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="-"
+                    android:id="@+id/btnsub" />
+
+                <Button
+                    android:onClick="docalculation"
+
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="*"
+                    android:id="@+id/btnmul" />
+
+                <Button
+                    android:onClick="docalculation"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="/"
+                    android:id="@+id/btndiv"
+                    android:layout_alignTop="@+id/linearLayout"
+                    android:layout_toRightOf="@+id/linearLayout"
+                    android:layout_toEndOf="@+id/linearLayout" />
+
+                <Button
+                    android:onClick="docalculation"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="%"
+                    android:id="@+id/btnmode"
+                    android:layout_alignTop="@+id/linearLayout"
+                    android:layout_toRightOf="@+id/linearLayout"
+                    android:layout_toEndOf="@+id/linearLayout" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvresult"
+                android:layout_below="@+id/linearLayout"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="36dp"
+                android:paddingBottom="10dp" />
+        </LinearLayout>
+    </FrameLayout>
+
+</RelativeLayout>

@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+android:background="@color/balck"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center_horizontal">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#b3b3b4">
+
+
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2">
+        <Button
+            android:textColor="@color/white"
+            android:onClick="dointent"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/btngreetuser"
+            android:layout_weight="1"
+            android:background="@color/orange"
+            android:text="Greet user"
+            android:layout_margin="3dp" />
+
+        <Button
+            android:onClick="dointent"
+
+            android:textColor="@color/white"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:text="Calculator"
+            android:id="@+id/btncalculator"
+            android:layout_weight="1"
+            android:background="@color/a"
+            android:layout_margin="3dp" />
+            </LinearLayout>
+
+        <Button
+            android:onClick="dointent"
+
+            android:textColor="@color/white"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="123dp"
+            android:text="Benchmark Algorithem"
+            android:id="@+id/btnbenchmark_algorithem"
+            android:background="@color/c"
+            android:layout_margin="3dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2">
+        <Button
+            android:onClick="dointent"
+
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:text="User registration"
+            android:id="@+id/btnureg"
+            android:layout_weight="1"
+            android:background="@color/colorAccent"
+            android:layout_margin="3dp"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:onClick="dointent"
+            android:textColor="@color/white"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:text="animation"
+            android:id="@+id/btnanimation"
+            android:layout_weight="1"
+            android:background="@color/b"
+            android:layout_margin="3dp" />
+            </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:weightSum="4">
+
+            <Button
+                android:onClick="dointent"
+
+                android:layout_width="90dp"
+                android:layout_height="60dp"
+                android:text="Instagram"
+                android:id="@+id/btninstagram"
+                android:background="@color/f"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+              />
+
+            <Button
+                android:onClick="dointent"
+
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="90dp"
+                android:layout_height="60dp"
+                android:text="Store"
+                android:id="@+id/btnstore"
+                android:layout_weight="1"
+                android:background="@color/b"
+                android:layout_margin="3dp"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:onClick="dointent"
+
+                android:textColor="@color/white"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="90dp"
+                android:layout_height="60dp"
+                android:text="Sensor"
+                android:id="@+id/btnsensor"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:layout_margin="3dp" />
+
+            <Button
+                android:onClick="dointent"
+
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="90dp"
+                android:layout_height="60dp"
+                android:text="Shake"
+                android:id="@+id/btnshake"
+                android:layout_weight="1"
+                android:background="@color/e"
+                android:layout_margin="3dp"
+                android:textColor="@color/white"
+
+
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2">
+
+
+            <Button
+                android:onClick="dointent"
+
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:text="Mp3 Player"
+                android:id="@+id/btnmp3player"
+                android:layout_weight="1"
+                android:background="@color/background2"
+                android:layout_margin="3dp" />
+
+            <Button
+                android:onClick="dointent"
+
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:text="Sensor list"
+                android:id="@+id/btnsensorlist"
+                android:layout_weight="1"
+                android:background="@color/green"
+                android:layout_margin="3dp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:weightSum="4">
+
+            <Button
+                android:onClick="dointent"
+
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="90dp"
+                android:layout_height="60dp"
+                android:text="SuperHero"
+                android:textSize="10dp"
+                android:id="@+id/btnsuperhero"
+                android:background="@color/i"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                />
+
+            <Button
+                android:onClick="dointent"
+
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="90dp"
+                android:layout_height="60dp"
+                android:text="sax"
+                android:id="@+id/saxparsing"
+                android:layout_weight="1"
+                android:background="@color/list_row_hover_end_color"
+                android:layout_margin="3dp"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:onClick="dointent"
+                android:textColor="@color/white"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="90dp"
+                android:layout_height="60dp"
+                android:text="Speech"
+                android:id="@+id/speech"
+                android:layout_weight="1"
+                android:background="@color/balck"
+                android:layout_margin="3dp" />
+
+            <Button
+                android:onClick="dointent"
+
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="90dp"
+                android:layout_height="60dp"
+                android:text="movie"
+                android:id="@+id/movie"
+                android:layout_weight="1"
+                android:background="@color/genre"
+                android:layout_margin="3dp"
+                android:textColor="@color/white"
+
+
+                />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2">
+
+
+            <Button
+                android:onClick="dointent"
+
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:text="Web"
+                android:id="@+id/btnwebview"
+                android:layout_weight="1"
+                android:background="@color/orange"
+                android:layout_margin="3dp" />
+
+            <Button
+                android:onClick="dointent"
+
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:text="Speech To Text"
+                android:id="@+id/btnSpeechtotext"
+                android:layout_weight="1"
+                android:background="@color/b"
+                android:layout_margin="3dp" />
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
